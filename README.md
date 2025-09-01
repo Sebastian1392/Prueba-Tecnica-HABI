@@ -85,7 +85,7 @@ El siguiente diagrama muestra el modelo de datos extendido con la implementació
 ### 4.3. Código SQL
 El código SQL necesario para crear las nuevas tablas en la base de datos se encuentra en el archivo **[`ServicioMeGusta.sql`](./Scripts%20SQL/ServicioMeGusta.sql)**, en donde se asume la creación de una tabla `users` para almacenar la información de los usuarios registrados.
 
-## 5. Propuesta de Optimización del Modelo (Punto Extra)
+## 5. Propuesta de Optimización del Modelo
 
 Para cumplir con el punto extra de proponer una mejora al modelo de datos, se añadió una entidad `ubication`. La razón principal es normalizar la base de datos para hacerla más eficiente, robusta y escalable. Esta decisión optimiza el sistema de tres maneras fundamentales:
 
